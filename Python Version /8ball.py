@@ -3,12 +3,17 @@ import random
 ## Declaring Variables ##
 
 # Name of User
-name = "Nemiah"
+name = ""
 # Yes or No Question
 question = ""
 # Magic 8 Balls answer
 answer = ""
 
+## Input ##
+print("Enter your name: ")
+name = input()
+print("Question")
+question = input()
 ## Generating Random Number ## 
 
 random_number = random.randint(1, 10)
